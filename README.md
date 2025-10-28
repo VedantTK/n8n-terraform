@@ -6,6 +6,8 @@
 
     shh -i my_gcp_key.pem ubuntu@<ip>
 
+    # create docker-compose.yml file 
+
     mkdir -p /home/ubuntu/certs
 
     openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
