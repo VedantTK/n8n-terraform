@@ -1,0 +1,66 @@
+# === Terraform ===
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+
+# Crash logs
+crash.log
+
+# Ignore variable files with secrets
+*.tfvars
+*.tfvars.json
+
+# Plan files
+*.plan
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Lock files (may include provider checksums)
+.terraform.lock.hcl
+
+# === Docker / n8n related ===
+# SSL certificates and keys
+certs/
+*.crt
+*.key
+*.pem
+
+# Environment files
+.env
+.env.*
+
+# n8n data or node configuration
+n8n_data/
+postgres_data/
+
+# === OS / Editor Files ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux / system
+*~
+.nfs*
+
+# Editor / IDE configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# === Shell Scripts ===
+# Keep n8n.sh tracked if you want, but you can un-comment if not
+# n8n.sh
